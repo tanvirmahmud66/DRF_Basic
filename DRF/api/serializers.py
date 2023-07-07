@@ -30,3 +30,7 @@ class BooksSerializer(serializers.ModelSerializer):
     class Meta:
         model = Books
         fields = '__all__'
+
+    # def validate(self, data):
+    #     if data == True:
+    #         return data 
